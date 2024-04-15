@@ -36,7 +36,7 @@ h1 {
 }
 
 .arrow {
-    font-size: 3em;
+    font-size: 2em;
     grid-column: span 1;
     display: flex;
     align-items: center;
