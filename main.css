@@ -74,3 +74,9 @@ input[type="number"] {
     background-color: #f0f0f0;
     font-weight: bold;
 }
+
+p {
+    font-size: 2em;
+    color: red;
+    font-weight: bold;
+}
