@@ -5,9 +5,9 @@ const n3 = document.querySelector("#n3")! as HTMLInputElement;
 const n4 = document.querySelector("#n4")! as HTMLInputElement;
 const rel = document.querySelector("#rel")! as HTMLParagraphElement;
 
-n1.onchange = calc;
-n2.onchange = calc;
-n3.onchange = calc;
+n1.oninput = calc;
+n2.oninput = calc;
+n3.oninput = calc;
 
 function calc() {
   if (!n1.value || !n2.value) {
