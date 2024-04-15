@@ -9,7 +9,10 @@ n2.onchange = calc;
 n3.onchange = calc;
 
 function calc() {
-  if (!n1.value || !n2.value || !n3.value) return;
+  if (!n1.value || !n2.value || !n3.value) {
+    n4.value = "";
+    return;
+  }
   n4.value = ((Number.parseFloat(n2.value) / Number.parseFloat(n1.value)) *
     Number.parseFloat(n3.value)).toString();
 }
