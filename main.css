@@ -19,7 +19,6 @@ h1 {
     text-align: center;
     color: #333;
     margin-top: 0;
-    font-size: 3em;
 }
 
 .grid-container {
@@ -36,7 +35,6 @@ h1 {
 }
 
 .arrow {
-    font-size: 3em;
     grid-column: span 1;
     display: flex;
     align-items: center;
@@ -45,7 +43,6 @@ h1 {
 
 label {
     font-weight: bold;
-    font-size: 2em; /* Increased label size */
 }
 
 input {
@@ -54,7 +51,6 @@ input {
     padding: 16px; /* Increased padding */
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 2em; /* Increased input font size */
 }
 
 input[type="number"] {
